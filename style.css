@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #eee;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+#header{
+    background: rgb(117, 117, 253);
+    position: sticky;
+    display: flex;
+    
+}
+
+#header-img{
+    width: 5rem;
+}
+
+#nav-bar{
+    color: white;
+}
+
+.nav-link{
+    display: inline-block;
+}
